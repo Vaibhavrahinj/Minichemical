@@ -1,0 +1,1 @@
+var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document,e=t.createElement("script"),o="https:"===t.location.protocol,g=t.getElementsByTagName("script")[0];e.async=!0,e.type="text/javascript",e.src=(o?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js",g.parentNode.insertBefore(e,g)}();

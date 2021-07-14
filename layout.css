@@ -1,0 +1,318 @@
+.home{
+	height: 200px;
+	width: 100%;
+	/*color: hsl(100,120%,30%);*/
+	color: red;
+	font-size: 30px;
+	background-image: url("../minichemical/image/image2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 200px;
+}
+#com{
+	background-color: rgb(0,200,255);
+	height: 70px;
+	width: 500px;
+	margin-left: 650px;
+	border-radius: 10px;
+}
+.logimg{
+	height: 5px;
+	width: 5px;
+	padding-left: 1200px;
+
+}
+a
+{
+	text-decoration: none;
+	color: red;
+}
+a:hover
+{
+	background-color: green;
+	border-radius: 5px;
+}
+
+b{
+	font-size: 22px;
+	color: green;
+}
+#link a
+{
+	color: white;
+
+}
+.img a
+{
+	padding-left: 30px;
+	font-size: 20px;
+	color: purple;
+}
+#mar{
+	font-size: 30px;
+}
+#link{
+
+	padding-left: 30px;
+	background-color: rgb(255,150,14);
+	height: 40px;
+	width: 100%;
+	font-size: 20px;
+	word-spacing: 30px;
+	text-decoration: none;
+	padding-top: 15px;
+
+}
+.leftspan{
+	height: 700px;
+	margin-top: -117.5px;
+	background-color: lightgrey;
+	width: 20%;
+	clear: both;
+
+}
+.lefts{
+	height: 700px;
+	margin-top: -318.5px;
+	background-color: pink;
+	width: 20%;
+	clear: both;
+
+}
+#login{
+
+	background-color: green;
+	margin-top: 10%;
+	height: 170px;
+	color: white;
+	
+	
+}
+#log{
+	margin-left: 90px;
+	height: 350px;
+	width: 300px;
+	font-size: 20px;
+	color: red;
+	background-color: hsl(120,100%,75%);
+	border: solid 2px red;
+	border-radius: 10px;
+
+}
+#loga{
+	margin-left: 90px;
+	
+	font-size: 20px;
+	color: red;
+	background-color: hsl(120,100%,75%);
+	border: solid 2px red;
+	border-radius: 10px;
+
+}
+.content
+{
+	height: 100px;
+	width: 50%;
+	margin-left: 30%;
+	background-color: rgb(100,255,100);
+	
+}
+.orga{
+	margin-right: 400px;
+}
+.contact1
+{
+	height: 400px;
+	width: 70%;
+	margin-left: 30%;
+	border: solid 2px red;
+	background-color: hsl(120,100%,75%);
+	color: purple;
+	border-radius: 10px;
+
+}
+.right{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+.information{
+	font-size: 30px;
+	
+}
+.footer{
+	background-color: rgb(255,150,14);
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+
+
+}
+
+#l{
+
+	font-size: 20px;
+	color: purple;
+	border: solid 1px red;
+
+
+}
+.foot{
+	height: 50px;
+	width: 100%;
+	background-color: rgb(255,150,14);
+}
+#alcohol{
+	font-size: 30px;
+	color: blue;
+
+}
+.typealco{
+	height: 37px;
+	width: 200px;
+	background-color: hsl(120,100%,75%);
+	color: red;
+	border: solid red 2px;
+}
+#chem{
+	font-size: 20px;
+	color: red;
+}
+.order{
+	
+	height: 450px;
+	width: 500px;
+	color: red;
+	border: solid 2px red;
+	background-color: hsl(120,100%,75%);
+	border-radius: 10px;
+}
+.btn{
+	background-color: rgb(255,150,14);
+	color: white;
+	border: solid 2px red;
+
+
+}
+.btns{
+	
+	background-color: rgb(255,150,14);
+	color: white;
+	border: solid 2px red;
+}
+.btn:hover{
+	background-color: red;
+}
+.btns:hover{
+	background-color: red;
+}
+.f{
+	border: solid 2px red;
+	height: 40px;
+	width: 300px;
+	background-color: hsl(120,100%,75%);
+	color: black;
+	margin-left: 80px;	
+}
+p
+{
+	color: black;
+
+}
+u{
+	font-size: 30px;
+	color: orange;
+}
+.about{
+	font-size: 20px;
+}
+
+.ow{
+	margin-left: 400px;
+	height: 35px;
+	width: 150px;
+	font-size: 22px;
+	text-decoration: solid bold;
+	color: white;
+
+}
+.ow a
+{
+		font-size: 22px;
+	text-decoration: solid bold;
+	color: white;
+}
+.oi{
+	height: -200px;
+	width: -200px;
+	margin-left: 20px;
+}
+.sds{
+
+}
+.ena{
+     margin-left: 200px;
+     margin-top: -125px;
+}
+.rs{
+	margin-left: 400px;
+     margin-top: -145px;
+}
+/*.order1{
+	height: 800px;
+}*/
+.bt{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown:hover {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-color: green;
+    text-decoration: underline;
+    border-radius: 5px;	
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+img
+{
+	border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content
+ {
+
+    display: block;
+}
+
+.org{
+	color: white;
+	background-color: red;
+}
+.cn{
+	width:50px;
+	float-left:100px; 
+}
+.allchemical{
+
+	font-size: 20px;
+	color: purple;
+
+}
+
+
+

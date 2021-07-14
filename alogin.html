@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alcohol login</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<script type="text/javascript">
+	function val() {
+		var a=document.getElementById("user").value;
+		var b=document.getElementById("pass").value;
+		if (a=="alcohol" && b=="12345") {
+			alert("log in succesfully......!");
+			window.open('order.html');
+			return	false;
+		}
+		
+		else{
+			alert("please try again");
+				window.open('alogin.html','_self');
+				return false;
+		}
+
+		
+	}
+</script>
+<body>
+	
+	<div class="home">
+		<div class="logimg"><br><br>
+			<a href="login.html"><img src="../minichemical/image/log.jpg"></a>
+		</div>
+	<marquee>
+		<div id="mar">Welcome User...!</div>
+		</marquee>
+		<div id="com">
+		<h1><center>Minichemical.com</center></h1>
+	</div>
+</div>
+
+<div id="link">
+
+	<a href="home.html">Home</a>
+   
+    <a href="about.html">About</a>
+	<a href="contact.html">contact-us</a>
+
+	
+	<div class="dropdown">
+  <span>Chemical</span>
+  <div class="dropdown-content">
+    <a class="org" href="organdinorg.html">Organic&Inorganic</a><br><br>
+    
+    <a class="org" href="alcohol.html">Alcohol</a>
+  </div>
+</div>
+</div>
+
+
+<div class="content" align="center"><br><br><br><br><br><br><br>
+	<form>
+	<fieldset id="log">
+		<b id="l">Log In</b><br><br><br>
+		<p>Alcohol Order</p>
+		<label>Username</label><br><input id="user" type="mail" name=""required placeholder="Enter your Username" pattern="0-9"><br><br>
+		<label>Password</label><br><input id="pass" type="password" name="" required placeholder="Enter your password"><br><br><br>
+		
+		<input class="btns" type="submit" name="" value="submit" onclick="val()" color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input class="btn" type="reset" name=""  value="Cancel">
+		
+	</fieldset>
+	</form>
+</div>
+
+	<div class="leftspan">
+	<p></p>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avilable Chemical</b><br><br><br><br>
+		<div class="img">
+		<a href="alcohol.html"> <img src="../minichemical/image/image1.jpg"></a><br>
+	    <a href="alcohol.html">Alcohol</a><br><br><br><br><br><br><br><br>
+		<a href="organdinorg.html"> <img src="../minichemical/image/image4.jpg"></a><br>
+		<a href="organdinorg.html">org and inorg.</a>
+	
+	</div>
+	</div>
+
+
+
+	<div class="foot">
+		
+	<div class="ow"><a href="http://www.hedachemical.com">Other Websites</a></div>
+	</div>
+
+
+	</body>
+	</html>

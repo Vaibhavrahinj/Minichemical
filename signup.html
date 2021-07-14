@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+
+<script type="text/javascript">
+	function val() {
+		var a=document.getElementById("pass").value;
+		var b=document.getElementById("pass2").value;
+		if (a!=b)
+		 {
+			window.alert("password do not match");
+			return	false;
+		}
+		else{
+
+				window.alert('Please Enter OTP......!');
+
+					window.location.replace('otp1.html');
+			
+
+				return false;
+		}
+		return true;
+
+	
+	}
+</script>
+</head>
+<body>
+	<!-- <div class="logimg1"><br><br>
+			<a href="login.html"><img src="G:\minichemical\image\lock2.jpg"></a>
+		</div> -->
+	<div class="home">
+		<div class="logimg"><br><br>
+			<a href="login.html"><img src="../minichemical/image/log.jpg"></a>
+		</div>
+	<marquee>
+		<div id="mar">Welcome User...!</div>
+		</marquee>
+		<div id="com">
+		<h1><center>Minichemical.com</center></h1>
+	</div>
+</div>
+
+<div id="link">
+
+	<a href="home.html">Home</a>
+    
+    <a href="about.html">About</a>
+	<a href="contact.html">contact-us</a>
+
+	
+	<div class="dropdown">
+  <span>Chemical</span>
+  <div class="dropdown-content">
+    <a class="org" href="organdinorg.html">Organic&Inorganic</a><br><br>
+    
+    <a class="org" href="alcohol.html">Alcohol</a>
+  </div>
+</div>
+</div>
+
+
+<div class="content" align="center"><br><br><br><br><br><br><br>
+	<form action="" onsubmit="return val()">
+	<fieldset id="loga">
+		<table>
+			<tr>
+		<b>Signup</b><br><br>
+</tr><tr>
+		<td><label>First Name</label></td>
+			<td><input type="" name="" pattern="^[A-Z a-z]{1,30}$" required placeholder="Enter First Name"><br><br>
+		</td></tr>
+		<tr>
+		
+	<td><label>Last Name:</label></td>
+	    <td><input type="" name="" pattern="^[A-Z a-z]{1,30}$" required placeholder="Enter last Name"><br><br>
+  </td>
+</tr>
+     <tr>
+     
+	<td><label>Address:</label></td> 
+	<td><input type="" name="" required placeholder="Enter Address"><br><br>
+  </td>
+</tr>
+  <tr>
+  
+	<td><label>Mobile no :</label></td>
+	<td><input type="tel" name="" maxlength="10" pattern="^['0-9']{10}$" required placeholder="Enter a mobile number" ><br><br>
+  </td>
+</tr>
+   <tr>
+  
+<td><label>Email id :</label></td>
+	<td><input type="Email" name="Email" required placeholder="Enter Email" pattern="^['0-9 A-Z a-z @ .']{5,20}$"><br><br>
+  </td>
+</tr>
+  <tr>
+  	<td><label>Password :</label></td>
+	<td><input type="password" name="" maxlength="8" placeholder="Enter Password" id="pass" required=""><br><br>
+	</td>
+</tr>
+	<td><label>Con.Password :</label></td>
+	<td><input type="password" name="" maxlength="8" placeholder="Enter Conform Password" id="pass2" required="">
+</td>
+</tr>
+</table>
+<br><br>
+<table>
+	<tr>
+		<td>
+		<input class="btns" type="submit" name="" value="submit" color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input class="btn" type="reset" name=""  value="Cancel"><br><br>
+	</td>
+			 </tr>
+		</table>
+	</fieldset>
+	</form>
+</div>
+
+	<div class="leftspan">
+	<p></p>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avilable Chemical</b><br><br><br><br>
+		<div class="img">
+		<a href="alcohol.html"> <img src="../minichemical/image/image1.jpg"></a><br>
+	    <a href="alcohol.html">Alcohol</a><br><br><br><br><br><br><br><br>
+		<a href="organdinorg.html"> <img src="../minichemical/image/image4.jpg"></a><br>
+		<a href="organdinorg.html">org and inorg.</a>
+	
+	</div>
+	</div>
+
+
+
+	<div class="foot">
+		
+	<div class="ow"><a href="http://www.hedachemical.com">Other Websites</a></div>
+	</div>
+
+
+	</body>
+	</html>

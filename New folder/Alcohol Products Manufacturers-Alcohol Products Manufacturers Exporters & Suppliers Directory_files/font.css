@@ -1,0 +1,642 @@
+/* CSS Document */
+
+.top-links
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#0058B4; 
+	font-weight:normal;
+	text-align:center;
+	text-decoration:none;
+	margin-top:5px;
+	}
+.top-links1
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#005C9E; 
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	margin-top:5px;
+	}
+	
+a.home 
+	{
+	text-decoration:none; 
+	
+	}
+a.home:hover 
+	{
+	text-decoration:underline;
+	color:#FF0020;
+	}
+
+
+a.top 
+	{
+	text-decoration:none; 
+	
+	}
+a.top:hover 
+	{
+	text-decoration:underline;
+	color:#000000;
+	}
+a.left-link 
+	{
+	text-decoration:none; 
+	
+	}
+a.left-link:hover 
+	{
+	text-decoration:underline;
+	color:#044B81;
+	}
+a.category 
+	{
+	text-decoration:none; 
+	
+	}
+a.category:hover 
+	{
+	text-decoration:underline;
+	color:#003FF4;
+	}
+a.gifts 
+	{
+	text-decoration:underline; 
+	
+	}
+a.gifts:hover 
+	{
+	text-decoration:none;
+	color:#FF0000;
+	}
+
+a.events 
+	{
+	text-decoration:underline; 
+	
+	}
+a.events:hover 
+	{
+	text-decoration:none;
+	color:#FF0000;
+	}
+	
+a.leads 
+	{
+	text-decoration:none; 
+	
+	}
+a.leads:hover 
+	{
+	text-decoration:underline;
+	background-color:#B2DFFF;
+	color:#CE00CC;
+	}
+
+a.india 
+	{
+	text-decoration:none; 
+	
+	}
+a.india:hover 
+	{
+	text-decoration:underline;
+	color:#008AEC;
+	}
+	
+a.bottom 
+	{
+	text-decoration:none; 
+	
+	}
+a.bottom:hover 
+	{
+	text-decoration:underline;
+	color:#000000;
+	}
+	
+a.catalog 
+	{
+	text-decoration:none; 
+	
+	}
+a.catalog:hover 
+	{
+	text-decoration:underline;
+	color:#000000;
+	}
+	
+a.agriculture 
+	{
+	text-decoration:none; 
+	
+	}
+a.agriculture:hover 
+	{
+	text-decoration:underline;
+	color:#ff0000;
+	}
+	
+a.select 
+	{
+	text-decoration:none; 
+	
+	}
+a.select:hover 
+	{
+	text-decoration:underline;
+	color:#000000;
+	}
+
+a.kdr 
+	{
+	text-decoration:none; 
+	
+	}
+a.kdr:hover 
+	{
+	text-decoration:underline;
+	color:#6A007F;	
+	}
+
+a.agri-products 
+	{
+	text-decoration:none; 
+	
+	}
+a.agri-products:hover 
+	{
+	text-decoration:underline;
+	color:#C3009C;
+	}
+
+
+.search-font
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+	}
+
+.font1
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#000000; 
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	}
+.font2
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#006FBE; 
+	font-weight:bold;
+	text-align:left;
+	text-decoration:underline;
+	}
+.font3
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:justify;
+	}
+.font5
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	float:left;
+	}
+	
+.font4
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#fff; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	padding-left:5px;
+	}
+.font6
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	float:left;
+	padding-left:10px;
+	}
+.font7
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	float:left;
+	}
+.font8
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	float:left;
+	padding-top:5px;
+	}
+.font9
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#000000; 
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	margin-left:0px;
+	}
+.font10
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:justify;
+	}
+.font11
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	}
+	
+.font12
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	margin:0px 0px 0px 0px;
+	}
+.font13
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	}
+.font14
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#005FC1; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	}
+	
+.font15
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#fff; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	}
+.font16
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#fff; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	}
+.font17
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#0061E5; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	}
+.font18
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:justify;
+	line-height: 19px;
+	}
+.font19
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	}
+.font20
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#990000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	}
+.font21
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	}
+.font22
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	}
+.font23
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	padding-left:50px;
+	}
+.font24
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#008CF1; 
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:left;
+	}
+.font25
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#ff0000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	}
+.font26
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#666666;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:justify;
+	}
+.font27
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	float:left;
+	line-height: 19px;
+	}
+.font28
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#0048FF; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	}
+.font29
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#9600B1; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	}
+
+
+.font30	
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+	padding-top:3px;
+	padding-left:5px;
+	}
+.font31
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	}
+.font32
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#9600B1; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:justify;
+	padding-top:10px;
+	}
+.font33
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:justify;
+	padding-top:2px;
+	}
+.font34
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	padding-left:50px;
+	}
+.font34
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	}
+.font35
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#ff0000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	}	
+.font36
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	}
+.font37
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	padding-top:5px;
+	}
+.font38
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	margin-left:0px;
+	}
+.font40
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px; 
+	}	
+.font41
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#F76300; 
+	}
+.font42
+	{
+		font-size:14px;
+	}
+.font43
+	{
+		font-size:12px;
+	}		
+.dotted-line
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	color:#0061E5; 
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	}
+.text-feild-border 
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #0066FF;
+	height: 16px;
+}
+
+.list-menu-border 
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #0066FF;
+	height:20px;
+}
+.browse-border {
+	border: 1px solid #008BEE;
+}
+.browse-border-orange {
+	border: 1px solid #FF4800;
+}
+.browse-border-blue {
+	border: 1px solid #0058B4;
+}
+.browse-border_red {
+	border: 1px solid #FD6E72;
+}
+
+.browse-border1 
+	{
+	width:253px;
+	height:auto;
+	border: 1px solid #008BEE;
+	}
+.browse-border3 
+	{
+	border: 1px solid #FFC37B;
+	text-align:left;
+	}
+.pageheadingfont
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000; 
+	font-weight:bold;
+	text-decoration:none;
+	}	

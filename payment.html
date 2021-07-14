@@ -1,0 +1,102 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<script type="text/javascript"> 
+        function otp()
+    {
+
+               window.alert('Please Enter OTP.....!');             
+
+                 window.location.replace('otp.html');
+                return false;
+
+
+
+               }
+
+              </script> 
+</head>
+<body>
+ 		<!-- <div class="logimg1"><br><br>
+			<a href="login.html"><img src="G:\minichemical\image\lock2.jpg"></a>
+		</div> -->
+<div class="home">
+			<div class="logimg"><br><br>
+			<a href="login.html"> <img src="../minichemical/image/log.jpg"></a>
+		</div>
+	<marquee>
+		<div id="mar">Welcome User...!</div>
+		</marquee>
+		<div id="com">
+		<h1><center>Minichemical.com</center></h1>
+	</div>
+</div>
+
+<div id="link">
+
+	<a href="home.html">Home</a>
+   
+    <a href="about.html">About</a>
+	<a href="contact.html">contact-us</a>
+
+	<div class="dropdown">
+  <span>Chemical</span>
+  <div class="dropdown-content">
+     <a class="org" href="organdinorg.html">Organic&Inorganic</a><br><br>
+         <a class="org" href="alcohol.html">Alcohol</a>
+  </div>
+</div>
+</div>
+
+
+<div class="content" align="center"><br><br><br>
+	<form action="" onsubmit=" return otp()">
+	<div class="order">
+	<center>	
+			<h1>Payment</h1><br><br><br><br>
+			<table>
+				<tr>
+					<td>
+			Enter Card Number :<input type="" name="Payment" maxlength="16" value="" pattern="^[0-9]{16}$" required placeholder="6184868419452736"><br><br><br>
+			Enter holder Name :<input type="" name="Payment" value="" pattern="^[A-Z a-z]{5,30}$" required placeholder="Holder Name"><br><br><br>
+			Expiry Date :<input type="Date" name="payment" value="date" required="" ><br><br><br>
+			Enter CVV :<input type="password" name="payment" maxlength="4" value="" pattern="^[0-9]{4}$" required placeholder="****"><br><br><br><br>
+			<a href="otp.html">
+			<input class="btns" type="submit" nam onclick="val()"e="" onclick="val()" class="btnsign"></a>
+			<input style="margin-left: 100px" class="btn" type="reset" name="" class="btnsign">
+		</td>
+		</tr>
+		</table>
+			</center>
+		</form>	
+		</fieldset>
+		</div>
+</div>	
+
+
+
+
+<div class="leftspan">
+	<p></p>
+	<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avilable Chemical</b><br><br><br><br>
+	<div class="img">
+	<a href="alcohol.html"> <img src="../minichemical/image/image1.jpg"></a><br>
+    <a href="alcohol.html">Alcohol</a><br><br><br><br><br><br><br><br>
+	<a href="organdinorg.html"> <img src="../minichemical/image/image4.jpg"></a><br>
+	<a href="organdinorg.html">org. and inorg.</a>
+	
+</div>
+</div>
+
+	
+
+
+<div class="foot">
+	
+<div class="ow"><a href="http://www.hedachemical.com">Other Websites</a></div>
+</div>
+
+</body>
+</html>

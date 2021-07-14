@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chemical order</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<script type="text/javascript"> 
+        function corder()
+    {
+
+               window.alert('Now please make a payment.....!');             
+
+                 window.location.replace('payment.html');
+                return false;
+
+
+
+               }
+
+              </script> 
+</head>
+<body>
+    
+<div class="home">
+	<div class="logimg"><br><br>
+			<a href="login.html"> <img src="../minichemical/image/log.jpg"></a>
+		</div>
+		<marquee>
+		<div id="mar">Welcome User...!</div>
+		</marquee>
+		<div id="com">
+		<h1><center>Minichemical.com</center></h1>
+	</div>
+</div>
+<div id="link">
+
+	<a href="home.html">Home</a>
+   
+    <a href="about.html">About</a>
+	<a href="contact.html">contact-us</a>
+
+
+	<div class="dropdown">
+  <span>Chemical</span>
+  <div class="dropdown-content">
+    <a class="org" href="organdinorg.html">Organic&Inorganic</a><br><br>
+    
+    <a class="org" href="alcohol.html">Alcohol</a>
+  </div>
+</div>
+</div>
+
+<div class="content"><br><br>
+	<form action="payment.html" onsubmit=" return corder()">
+	<table class="order" align="center">
+		<h3 style="color: purple"> Order Organic And Inorganic Chemical :</h3>
+	<div class="f" align="center">
+		fields are mandotary contact information *</tr>
+	</div><br>
+	
+				<tr>		
+				<td><label>Select org. and inorg chemical</label></td>
+				<td>
+					<select  style="width: 157px;">
+						<option>Ammonia</option>
+						<option>Urea</option>
+						<option>Potassium Nitrate</option>
+						<option>Sodium Nitrate</option>
+						<option>Calcium Nitrate</option>
+						
+				
+					</select><br></td>
+
+		</tr>
+		<tr>							
+				<td><label>Quantity of org & inorg chemical:</label></td>
+				<td>
+					
+					<input type="number" name=""  placeholder="Quantity of chemical in packet" pattern="^[0-9]{1,500}$" required="">
+
+					<br></td>
+		</tr>
+		<tr>		
+				<td><label>Company Name*:</label></td>
+				<td><input type="name" name="" placeholder="Comapny name" pattern="^[a-z A-z]{3,20}" required=""><br></td>
+		</tr>
+		<tr>							
+				<td><label>Address*:</label></td>
+				<td><textarea  type="name" placeholder="Enter Address" pattern="^[A-Z a-z]{5,20}$" required=""></textarea><br></td>
+		</tr>
+		<tr>		
+				<td><label>City:</label></td>
+				<td>
+					<select class="country" style="width: 157px;">
+						<option>Aurangabad:</option>
+						<option>Ahmadnagar</option>
+						<option>Nashik</option>
+						<option>Jalna</option>
+						
+				
+					</select><br></td>
+
+		</tr>	
+		<tr>		
+				<td><label>Email id*:</label></td>
+				<td><input type="email" name="email" required placeholder="Enter correct mail" pattern="^[A-Z a-z @ . 0-9]{10,30}$"><br></td>
+
+		</tr>		
+		<tr>		
+				<td><label>Mobile.no*:</label></td>
+				<td><input type="tel" maxlength="10" name="number" placeholder="Mobile no" pattern="^[0-9]{10}$" required=""><br></td>
+
+		</tr>	
+		
+			
+		
+		<tr>
+		
+		<td align="center"><input class="btns" type="submit" value="submit"  name="" id="submit"></td>
+		<td align="center"><input class="btn" type="reset" name="" id="reset" value="Cancel"><br></td>
+	
+	</tr>
+
+	</table>
+</form></div>	
+
+
+
+
+<div class="leftspan">
+	<p></p>
+	<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avilable Chemical</b><br><br><br><br>
+	<div class="img">
+	<a href="alcohol.html"> <img src="../minichemical/image/image1.jpg"></a><br>
+    <a href="alcohol.html">Alcohol</a><br><br><br><br><br><br><br><br>
+	<a href="organdinorg.html"> <img src="../minichemical/image/image4.jpg"></a><br>
+	<a href="organdinorg.html">org. and inorg.</a>
+	
+</div>
+</div>
+
+	
+
+
+<div class="foot">
+	
+<div class="ow"><a href="http://www.hedachemical.com">Other Websites</a></div>
+</div>
+
+</body>
+</html>
